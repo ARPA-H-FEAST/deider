@@ -1,0 +1,48 @@
+{
+    "io":{
+        "input":{
+            "mri_images":"/path/to/prostate_cancer/mri_images/",
+            "mri_reports":"/path/to/prostate_cancer/mri_reports/",
+            "ptl_reports":"/path/to/prostate_cancer/ptl_reports/"
+        },
+        "output":{
+	    "mri_images":"/path/to/prostate_cancer/mri_images/",
+	    "mri_reports":"/path/to/prostate_cancer/mri_reports/",
+	    "ptl_reports":"/path/to/prostate_cancer/ptl_reports/"
+        },
+        "vardb_dir":"/path/to/vardb/"
+    },
+    "file_types":{
+       "mri_images": {
+          "fields":{ 
+              "rsid": "keep",
+              "chromosome": "keep"
+           }
+        },
+	"mri_reports": {
+          "fields":{ 
+              "rsid": "keep",
+              "chromosome": "keep"
+           }
+        },
+	"ptl_reports": {
+	   "fields":{
+	      "Accession": "deidentify:direct",
+	      "Accession2":"deidentify:direct",
+	      "MRN":"deidentify:direct",
+	      "Name":"deidentify:direct",
+	      "DOB":"deidentify:direct",
+	      "Gross":"deidentify:regex",
+	      "Collection":"deidentify:regex",
+	      "surgpath":"keep",
+	      "biopsypath":"keep",
+	      "unsurepath":"keep",
+	      "Diagnosis":"keep",
+	      "Requested":"keep"
+	   },
+	   "skip_phrases":[
+        	"Gleason"
+	   ]
+        }
+   }
+}

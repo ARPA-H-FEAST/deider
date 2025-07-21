@@ -1,0 +1,160 @@
+{
+    "io":{
+        "input":{
+            "tsv":"/data/arpah/downloads/nbcc/current/decrypted/tsv/"
+			},
+        "output":{
+            "tsv":"/data/arpah/generated/nbcc/deided/set26k/tsv/"
+        },
+        "vardb_dir":"/data/arpah/generated/vardb/"
+    },
+    "file_types":{
+      "tsv": {
+        	"/data/arpah/downloads/nbcc/current/decrypted/tsv/xx_nbcc_user_profiles.tsv":{
+				"id": "keep",	
+				"email": "de-identify",	
+				"first_name": "de-identify",
+				"last_name": "de-identify",
+				"date_joined": "de-identify",
+				"user_login_account_id": "keep",	
+				"deleted_user_login_account_id": "keep"
+			},
+			"/data/arpah/downloads/nbcc/current/decrypted/tsv/xx_nbcc_user_snps.tsv": {
+            "id": "keep",
+            "dnl_user": "keep",
+            "snp": "keep",
+            "a1": "keep",
+            "a2": "keep"
+        },
+        "/data/arpah/downloads/nbcc/current/decrypted/tsv/xx_nbcc_family_records.tsv": {
+            "id": "keep",
+            "nbcc_userinfo_id": "keep",
+            "relationship": "de-identify",
+            "name": "de-identify",
+            "email": "de-identify",
+            "own_account": "de-identify",
+            "year_of_birth": "de-identify",
+            "year_of_death": "de-identify",
+            "alive": "keep",
+            "sex": "keep",
+            "siblingtype": "keep",
+            "breast_cancer": "keep",
+            "diagnosis_year": "de-identify",
+            "diagnosis_age": "de-identify",
+            "diagnosis_idk": "keep",
+            "stage": "keep",
+            "er": "keep",
+            "pr": "keep",
+            "other_diagnosis_descriptors": "keep",
+            "receptors_idk": "keep",
+            "recurrence": "keep",
+            "recurrence_year": "de-identify",
+            "recurrence_age": "de-identify",
+            "recurrence_idk": "keep",
+            "recurrence_kind": "keep",
+            "last_screening_year": "de-identify",
+            "last_screening_age": "de-identify",
+            "last_screening_idk": "keep",
+            "last_screening_none": "keep",
+            "cause_of_death": "keep"
+        },
+        "/data/arpah/downloads/nbcc/current/decrypted/tsv/xx_nbcc_ids.tsv": {
+            "id": "keep",
+            "sample_id": "keep"
+        },
+        "/data/arpah/downloads/nbcc/current/decrypted/tsv/xx_nbcc_ancestries.tsv": {
+            "id": "keep",
+            "user_profile_id": "keep",
+            "name": "keep",
+            "value": "keep",
+            "version": "keep",
+            "created_at": "keep"
+        },
+        "/data/arpah/downloads/nbcc/current/decrypted/tsv/xx_nbcc_user_traits.tsv": {
+            "id": "keep",
+            "dnl_user": "keep",
+            "trait": "keep",
+            "raw_score": "keep",
+            "prediction": "keep",
+            "numhit": "keep",
+            "nummiss": "keep",
+            "true_anc": "keep",
+            "true_sex": "keep",
+            "version": "keep",
+            "created_at": "keep",
+            "deleted": "keep"
+        },
+        "/data/arpah/downloads/nbcc/current/decrypted/tsv/xx_nbcc_file_uploads.tsv": {
+            "id": "keep",
+            "user_profile_id": "keep",
+            "sample_id": "keep",
+            "display_filename": "de-identify",
+            "upload_time": "keep",
+            "status": "keep",
+            "errmsg": "keep",
+            "active": "keep",
+            "deleted": "keep",
+            "filetype": "keep"
+        },
+        "/data/arpah/downloads/nbcc/current/decrypted/tsv/xx_nbcc_user_login_accounts.tsv": {
+            "id": "keep",
+            "email": "de-identify",
+            "first_name": "de-identify",
+            "last_name": "de-identify",
+            "date_joined": "de-identify",
+            "locked": "keep",
+            "validated": "keep",
+            "active": "keep",
+            "password_hash": "de-identify",
+            "invite_count": "keep",
+            "invite_as_of": "de-identify",
+            "origin_campaign": "keep",
+            "active_profile_id": "keep",
+            "first_profile_id": "keep"
+        },
+        "/data/arpah/downloads/nbcc/current/decrypted/tsv/xx_nbcc_user_info.tsv": {
+            "id": "keep",
+            "user_profile_id": "keep",
+            "consent": "keep",
+            "allow_email_contact": "keep",
+            "consent_time": "keep",
+            "person_is_user": "keep",
+            "user_is_genome": "keep",
+            "third_party_consent": "keep",
+            "ident_confirm_time": "keep",
+            "family_records_done": "keep",
+            "family_records_timestamp": "de-identify",
+            "completion_timestamp": "de-identify",
+            "completion_rank": "keep",
+            "show_public_thank_you": "de-identify",
+            "thank_you_name": "de-identify",
+            "thank_you_public_id": "keep"
+        },
+        "/data/arpah/downloads/nbcc/current/decrypted/tsv/xx_nbcc_research_questions.tsv": {
+            "id": "keep",
+            "user_profile_id": "keep",
+            "question": "keep",
+            "answer": "de-identify",
+            "last_update": "keep"
+        }
+    },
+    "txt": {
+        "rsid": "keep",
+        "chromosome": "keep",
+        "position": "keep",
+        "genotype": "keep"
+    },
+    "vcf": {
+        "CHROM": "keep",
+        "POS": "keep",
+        "ID": "keep",
+        "REF": "keep",
+        "ALT": "keep",
+        "QUAL": "keep",
+        "FILTER": "keep",
+        "INFO": "keep",
+        "FORMAT": "keep",
+        "dnl104574_pjr": "keep"
+    }
+  }
+}
