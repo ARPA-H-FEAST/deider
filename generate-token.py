@@ -9,9 +9,9 @@ from cryptography.fernet import Fernet
 def main():
 
 
-    token = Fernet.generate_key().decode()
-    print (token)
-    exit()
+    #token = Fernet.generate_key().decode()
+    #print (token)
+    #exit()
 
     raw = "GWU1111111"
     hash_ = Fernet(token).encrypt(raw.encode()).decode()

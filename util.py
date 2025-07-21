@@ -19,8 +19,6 @@ def write_output(out_file, row_list):
 
 
 
-
-
 def load_vardb(vardb_file):
 
     ts_format = "%Y-%m-%d-%H-%M-%S"
@@ -47,10 +45,6 @@ def update_vardb(var_dict, vardb_file):
     with open(vardb_file, "w") as FW:
         FW.write("%s\n" % (json.dumps(tmp_dict, indent=4)))
     return
-
-
-
-
 
 
 
